@@ -1,0 +1,15 @@
+.jumbotron {
+    background-image: url("assets/images/bones.jpg");
+    background-size: cover;
+    
+  }
+  
+  .jumbotron h1 {
+    color: rgba(0, 0, 0, 0.397);
+    text-shadow: 3px 3px #fff;
+  
+  }
+  
+  .instructions {
+    text-align: center; 
+  }

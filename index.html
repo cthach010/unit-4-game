@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bone Appetit</title>
+  <!-- Reset CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+  <!-- Latest compiled and minified CSS (Bootstrap) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme (Bootstrap) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <!-- Javascript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <div class="jumbotron text-center">
+    <h1>Bone Appetit</h1></div>
+
+      <div class="container-fluid">
+        <div class="row">
+            <div class="row text-center">
+              <h2>There is a mystery to be solve!</h2>
+              <p>The dog bones in Pete's treat jar has suspiciously disappeared.</p>
+              <p>The trail of crumbs has led Pete to his four dogs, and they sure look guilty.</p>
+              <p>Help Pete find all the treats from each dog.</p>
+              <br>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 instructions">
+            <h4>DIRECTIONS:</h4>
+            <li>By clicking on a dog, you will add a specific amount of bones to your total score.</li>
+            <li>You win the game by matching your total score to the random number of bones needed to be collect.</li>
+            <li>You lose the game if your total score goes above the random number of bones.</li>
+            <li>The value of each bones from the dog is hidden from you until you click on it.</li>
+            <li>Each time when the game starts, it will change the values of each bones Pete need.</li>
+          </div>
+        </div>
+
+    <div class="row">
+      <div class="col-sm-9">
+        <h2>Bones needed: <span id="scoreToMatch"></span></h2>
+      </div>
+    <div class="col-sm-3">
+        <h3>Wins: <span id="wins"></span></h3>
+        <h3 class="text-left">Losses: <span id="losses"></span></h3>
+      </div>
+    </div>
+
+      <div class="row text-center">
+        <div class="col-sm-3">
+        <img src="assets/images/puppy-eye-1.jpg" class="img-thumnail 1" alt="pup1" width="200" height="200" />
+        </div>
+        <div class="col-sm-3">
+        <img src="assets/images/puppy-eye-2.jpg" class="img-thumbnail 2" alt="pup2" width="300" height="400" />
+        </div>
+        <div class="col-sm-3">
+        <img src="assets/images/puppy-eye-3.jpg" class="img-thumnail 3" alt="pup3" width="200" height="200" />
+        </div>
+        <div class="col-sm-3">
+          <img src="assets/images/puppy-eye-4.jpg" class="img-thumnail 4" alt="pup4" width="200" height="200" />
+        </div>
+      </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+      <h2>Your total score is: <span id="totalScore"></span></h2>
+      </div>
+    </div>
+    </div>
+
+
+</body>
+<!-- JS -->
+<script src="assets/javascript/game.js"></script> 
+</html>
